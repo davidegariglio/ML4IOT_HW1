@@ -20,8 +20,6 @@ is_connected = redis_client.ping()
 #redis_client.flushdb()
 print('Redis Connected:', is_connected)
 
-# python ex2.py --host redis-10012.c293.eu-central-1-1.ec2.cloud.redislabs.com --port 10012 --user default --password jtzWTkq5TAlGq9I6WcB0kX4QMoUJCFD7
-
 mac_address = hex(uuid.getnode())
 one_day_in_ms = 24 * 60 * 60 * 1000
 
